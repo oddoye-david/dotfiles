@@ -1,0 +1,19 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+
+{
+    "key": "ctrl+e",
+    "command": "eslint.applyAutoFix",
+    "when": "editorTextFocus"
+},{
+        "key": "shift+enter",
+        "command": "extension.jumpy-word",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "Escape",
+        "command": "extension.jumpy-exit",
+        "when": "editorTextFocus && jumpy.isJumpyMode"
+    }
+
+]
